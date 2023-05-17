@@ -1,5 +1,5 @@
 import React from "react";
-import { ProgressBarComponent } from "@foo-testing-0103/react-component/build/ProgressBarComponent";
+import { ProgressBarComponent } from "@foo-testing-0103/react-component/ProgressBarComponent";
 
 export const ShipmentComponent = () => {
   return (

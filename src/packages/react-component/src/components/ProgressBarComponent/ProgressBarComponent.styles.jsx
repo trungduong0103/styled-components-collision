@@ -1,6 +1,21 @@
 import styled from "styled-components";
 
+export const ItemLine = styled.div`
+  flex: 1;
+  max-width: 48px;
+`;
+
 export const Container = styled.div`
-  border: 4px dashed orange;
-  color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: dashed 1px orange;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 50px;
+  text-align: center;
+
+  ${ItemLine} {
+    color: blue;
+  }
 `;

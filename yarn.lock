@@ -1244,22 +1244,26 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.40.0.tgz#3ba73359e11f5a7bd3e407f70b3528abfae69cec"
   integrity sha512-ElyB54bJIhXQYVKjDSvCkPO1iU1tSAeVQJbllWJq1XQSmmA4dgFk8CbiBGpiOPxleE48vDogxCtmMYku4HSVLA==
 
-"@foo-testing-0103/react-component@0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@foo-testing-0103/react-component/-/react-component-0.0.1.tgz#7d4b4e346acf4151dacf0107701df022d5db5817"
-  integrity sha512-wk/ypCAzGbuO1C0v4w3CFUm7FN2RPtex2nWA2Jo2DVBBZ+yK+s6N8Ier3+6ZlqZLNYv0T3fYNaRMmsNuP2lC6g==
+"@foo-testing-0103/react-component@0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@foo-testing-0103/react-component/-/react-component-0.0.4.tgz#b8f6b4c752867728396966d3f09c6cc7ac50b7ac"
+  integrity sha512-/rB1CofeGcyBrls4s5tYFRaPzWvzySH/qCfKyBIn8uY5nb917ysT1oHZP/twhJKSs7+e4mAg4900WPjbl+VsQA==
   dependencies:
     styled-components "^5.1.1"
 
-"@foo-testing-0103/return@0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@foo-testing-0103/return/-/return-0.0.1.tgz#32dd86115029160a614392587166c99adaf7196d"
-  integrity sha512-tDIVeUBu60jF+xfeircQsxeTk9csHeZ3CbkcFk2nkyyPLcISTrFlglAahTpE9Fc5BvqsiQxqV0WValiNeMXiRA==
+"@foo-testing-0103/return@0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@foo-testing-0103/return/-/return-0.0.4.tgz#f8bd5f03ea91f966a25ccf4392afa17fdbaede2b"
+  integrity sha512-8Tv/iRfAUsiRXGxmOfOSgL8eblS6aVr0uMTonQ7/A7KZ2KtnB0qSeINhs5y1hSDd7pWEVfEWkA2Nd3yQdEQyCQ==
+  dependencies:
+    "@foo-testing-0103/react-component" "0.0.4"
 
-"@foo-testing-0103/shipment@0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@foo-testing-0103/shipment/-/shipment-0.0.1.tgz#a60430408ed7b035c804f0eb71a240cb09e2677b"
-  integrity sha512-twCGMOElo1UlWRrnvkYApy9I8NlPaIpJ9mD+YpNtgorcPGl5MMUP3j3EoOMKsH40ZGrRPY5Q0dAZivvYywftJw==
+"@foo-testing-0103/shipment@0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@foo-testing-0103/shipment/-/shipment-0.0.4.tgz#7082ba936b9c5fd62c85ba2d71fcd839bbef69ec"
+  integrity sha512-sHYxvnvm8O+3Pu5Lfz4FndBCpC2gmvoxeT4YJ9/hcGu34Hy1uF65GzY+NTMEvWLfKtIEFUexEmz7Jqk9+L4cfQ==
+  dependencies:
+    "@foo-testing-0103/react-component" "0.0.4"
 
 "@humanwhocodes/config-array@^0.11.8":
   version "0.11.8"

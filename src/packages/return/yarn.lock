@@ -140,10 +140,10 @@
   resolved "https://registry.yarnpkg.com/@emotion/unitless/-/unitless-0.7.5.tgz#77211291c1900a700b8a78cfafda3160d76949ed"
   integrity sha512-OWORNpfjMsSSUBVrRBVGECkhWcULOAJz9ZW8uK9qgxD+87M7jHRcvh/A96XXNhXTLmKcoYSQtBEX7lHMO7YRwg==
 
-"@foo-testing-0103/react-component@0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@foo-testing-0103/react-component/-/react-component-0.0.1.tgz#7d4b4e346acf4151dacf0107701df022d5db5817"
-  integrity sha512-wk/ypCAzGbuO1C0v4w3CFUm7FN2RPtex2nWA2Jo2DVBBZ+yK+s6N8Ier3+6ZlqZLNYv0T3fYNaRMmsNuP2lC6g==
+"@foo-testing-0103/react-component@0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@foo-testing-0103/react-component/-/react-component-0.0.5.tgz#c91ede0105a41ff9b84cd58617feb2988b774b39"
+  integrity sha512-nj6/0QEQnEFcAufA28LsP99/XhH3m5sqcSrlDUkDNwYy6h0sSwyoF3iBPiNjZxH0FT1ydLHfqa5lMuTuHGBLLg==
   dependencies:
     styled-components "^5.1.1"
 

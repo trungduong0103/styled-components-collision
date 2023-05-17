@@ -1,6 +1,6 @@
 {
   "name": "@foo-testing-0103/shipment",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "main": "build/index.js",
   "module": "build/index.js",
   "license": "MIT",
@@ -8,11 +8,11 @@
   "scripts": {
     "test": "echo test",
     "build-dev": "rollup -c --watch",
-    "build": "rollup -c && cp package.json ./build",
+    "build": "rm -rf ./build && rollup -c && cp package.json ./build",
     "precommit": "lint-staged"
   },
   "dependencies": {
-    "@foo-testing-0103/react-component": "0.0.1"
+    "@foo-testing-0103/react-component": "0.0.5"
   },
   "peerDependencies": {
     "react": ">=16.8.0",

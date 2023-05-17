@@ -1,6 +1,6 @@
 {
   "name": "@foo-testing-0103/react-component",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "main": "index.js",
   "author": "Loc Le <locle@parcelperform.com>",
   "type": "module",

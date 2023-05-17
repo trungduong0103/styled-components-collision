@@ -1,6 +1,6 @@
 import "./App.css";
-import { ReturnComponent } from "@foo-testing-0103/return";
-import { ShipmentComponent } from "@foo-testing-0103/shipment";
+import { ReturnComponent } from "@foo-testing-0103/return/index";
+import { ShipmentComponent } from "@foo-testing-0103/shipment/index";
 
 function App() {
   return (
