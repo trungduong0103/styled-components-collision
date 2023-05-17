@@ -1,5 +1,5 @@
 {
-  "name": "@ppbrik/shipment",
+  "name": "@foo/shipment",
   "version": "1.23.5",
   "main": "build/index.js",
   "module": "build/index.js",
