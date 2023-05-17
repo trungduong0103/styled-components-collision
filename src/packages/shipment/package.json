@@ -1,6 +1,6 @@
 {
   "name": "@foo-testing-0103/shipment",
-  "version": "0.0.8",
+  "version": "0.0.10",
   "main": "build/index.js",
   "module": "build/index.js",
   "license": "MIT",

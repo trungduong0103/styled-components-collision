@@ -1251,17 +1251,17 @@
   dependencies:
     styled-components "5.2.3"
 
-"@foo-testing-0103/return@0.0.8":
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/@foo-testing-0103/return/-/return-0.0.8.tgz#34f4e5ade7c993f0259262f804ff7748a5f6365d"
-  integrity sha512-Ln4slgmKs+oBNlcWgkpgo0kwmGfelDN4ZBPjfC8XfqEwCSYBqRGxIpZD9ynOs/JrweIHftdOPHTC6eoOTvJAuA==
+"@foo-testing-0103/return@0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@foo-testing-0103/return/-/return-0.0.9.tgz#7dd9d71a23adefceb0cff3adcf2ec934de3aa679"
+  integrity sha512-wuiYlKj9OfHgHDaUHNXjC0P6onn1pWBqc8wZ5cAFiMHFYKgpxR8MPFOQl6GeaYvc65k4ylFfxriwPBUzMVRsYA==
   dependencies:
     "@foo-testing-0103/react-component" "0.0.8"
 
-"@foo-testing-0103/shipment@0.0.8":
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/@foo-testing-0103/shipment/-/shipment-0.0.8.tgz#aac5f4cbb8ac94025966435edb98b3da9048f2c4"
-  integrity sha512-CkglCnZAlP0spBvqBvXSbNeAvoS8VwehdQM3smgyYGR+RxCJQciy4sQ4vg8WIkQDKjo6VV/pvTMWFCzVaN//iQ==
+"@foo-testing-0103/shipment@0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@foo-testing-0103/shipment/-/shipment-0.0.9.tgz#481c868e8d01ecba20830abb630f439e14acbb8b"
+  integrity sha512-XqaKBwYF3rjiJHyqrFc2KnCU2g/fyfhG7o1zZhqx9zvNncL0wpzo2CQMvE4bZ0YQ7qyBUGoB10WmEZmy6Eo6KA==
   dependencies:
     "@foo-testing-0103/react-component" "0.0.8"
 

@@ -3,7 +3,7 @@ import typescript from "@rollup/plugin-typescript";
 import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import json from "@rollup/plugin-json";
-// import replace from "@rollup/plugin-replace";
+import replace from "@rollup/plugin-replace";
 import image from "@rollup/plugin-image";
 import peerDepsExternal from "rollup-plugin-peer-deps-external";
 import postcss from "rollup-plugin-postcss";
@@ -18,9 +18,10 @@ const config = {
     sourcemap: true,
   },
   plugins: [
-    // replace({
-    //   "process.env.SC_ATTR": JSON.stringify("return-data-styled"),
-    // }),
+    replace({
+      "process.env.NODE_ENV": JSON.stringify("production"),
+      "process.env.SC_ATTR": JSON.stringify("return-data-styled"),
+    }),
     peerDepsExternal(),
     commonjs(),
     resolve({
