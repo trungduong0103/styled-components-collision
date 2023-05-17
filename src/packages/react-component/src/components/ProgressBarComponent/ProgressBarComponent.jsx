@@ -1,9 +1,10 @@
 import React from "react";
+import { Container } from "./ProgressBarComponent.styles";
 
 export const ProgressBarComponent = () => {
   return (
-    <div>
+    <Container>
       <h1>ProgressBarComponent</h1>
-    </div>
+    </Container>
   );
 };

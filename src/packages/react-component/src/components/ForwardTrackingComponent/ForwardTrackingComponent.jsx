@@ -1,9 +1,10 @@
-import React from 'react';
+import React from "react";
+import { Container } from "./ForwardTrackingComponent.styles";
 
 export const ForwardTrackingComponent = () => {
   return (
-    <div>
+    <Container>
       <h1>ForwardTrackingComponent</h1>
-    </div>
+    </Container>
   );
 };
