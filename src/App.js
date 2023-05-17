@@ -1,12 +1,44 @@
 import "./App.css";
-import { ReturnComponent } from "@foo-testing-0103/return/index";
-import { ShipmentComponent } from "@foo-testing-0103/shipment/index";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
+const ReturnModule = React.lazy(() => import("./modules/return"));
+const ShipmentModule = React.lazy(() => import("./modules/shipment"));
+
+const HelloComponent = () => {
+  return (
+    <div>
+      <Link to="return">Return</Link>
+      <br />
+      <Link to="shipment">Shipment</Link>
+    </div>
+  );
+};
 
 function App() {
   return (
     <div className="App">
-      <ShipmentComponent />
-      <ReturnComponent />
+      <Router>
+        <Routes>
+          <Route path="/" element={<HelloComponent />} />
+          <Route
+            path="/return"
+            element={
+              <React.Suspense fallback={<>...</>}>
+                <ReturnModule />
+              </React.Suspense>
+            }
+          />
+          <Route
+            path="/shipment"
+            element={
+              <React.Suspense fallback={<>...</>}>
+                <ShipmentModule />
+              </React.Suspense>
+            }
+          />
+        </Routes>
+      </Router>
     </div>
   );
 }

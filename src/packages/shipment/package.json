@@ -1,6 +1,6 @@
 {
   "name": "@foo-testing-0103/shipment",
-  "version": "0.0.5",
+  "version": "0.0.8",
   "main": "build/index.js",
   "module": "build/index.js",
   "license": "MIT",
@@ -12,7 +12,7 @@
     "precommit": "lint-staged"
   },
   "dependencies": {
-    "@foo-testing-0103/react-component": "0.0.5"
+    "@foo-testing-0103/react-component": "0.0.8"
   },
   "peerDependencies": {
     "react": ">=16.8.0",

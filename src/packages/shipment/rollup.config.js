@@ -8,7 +8,7 @@ import peerDepsExternal from "rollup-plugin-peer-deps-external";
 import postcss from "rollup-plugin-postcss";
 import json from "@rollup/plugin-json";
 import image from "@rollup/plugin-image";
-import replace from "@rollup/plugin-replace";
+// import replace from "@rollup/plugin-replace";
 // import globalImport from "postcss-global-import";
 // import postcssUrl from "postcss-url";
 
@@ -21,9 +21,9 @@ const config = {
     sourcemap: true,
   },
   plugins: [
-    replace({
-      "process.env.SC_ATTR": JSON.stringify("shipment-data-styled"),
-    }),
+    // replace({
+    //   "process.env.SC_ATTR": JSON.stringify("shipment-data-styled"),
+    // }),
     // alias({
     //   entries: {
     //     ppShared: `${APP_BASE_PATH_NODE_MODULES}/pp_shared_v2/src`,
