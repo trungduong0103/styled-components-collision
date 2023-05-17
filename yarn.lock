@@ -1251,17 +1251,17 @@
   dependencies:
     styled-components "5.2.3"
 
-"@foo-testing-0103/return@0.0.9":
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/@foo-testing-0103/return/-/return-0.0.9.tgz#7dd9d71a23adefceb0cff3adcf2ec934de3aa679"
-  integrity sha512-wuiYlKj9OfHgHDaUHNXjC0P6onn1pWBqc8wZ5cAFiMHFYKgpxR8MPFOQl6GeaYvc65k4ylFfxriwPBUzMVRsYA==
+"@foo-testing-0103/return@0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@foo-testing-0103/return/-/return-0.0.10.tgz#537d2e3d9410cab999b145344c845ca97e6e91ea"
+  integrity sha512-pcpqSRW2n/WwQ8bPQbOj2Tvbh0yt+kRrrMukdtSKk9qbtRedX3n+8lDNxUeWjtEFMXOdTL+/CgrN1fWPILOfJw==
   dependencies:
     "@foo-testing-0103/react-component" "0.0.8"
 
-"@foo-testing-0103/shipment@0.0.9":
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/@foo-testing-0103/shipment/-/shipment-0.0.9.tgz#481c868e8d01ecba20830abb630f439e14acbb8b"
-  integrity sha512-XqaKBwYF3rjiJHyqrFc2KnCU2g/fyfhG7o1zZhqx9zvNncL0wpzo2CQMvE4bZ0YQ7qyBUGoB10WmEZmy6Eo6KA==
+"@foo-testing-0103/shipment@0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@foo-testing-0103/shipment/-/shipment-0.0.10.tgz#5385363eed9b1dbb79a5ab6455b047bd5f50feac"
+  integrity sha512-jE+ZLahJ7iKNVdLaZhpHG2rhQGSHlFYQx3xh4CNBFcvcx9dmSbCYkkHlm0akLnIrYG1yL6PCqHnv371uD5Zl7A==
   dependencies:
     "@foo-testing-0103/react-component" "0.0.8"
 

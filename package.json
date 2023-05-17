@@ -4,8 +4,8 @@
   "private": true,
   "dependencies": {
     "@foo-testing-0103/react-component": "0.0.8",
-    "@foo-testing-0103/return": "0.0.9",
-    "@foo-testing-0103/shipment": "0.0.9",
+    "@foo-testing-0103/return": "0.0.10",
+    "@foo-testing-0103/shipment": "0.0.10",
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0",
     "react-router-dom": "^6.11.1",
