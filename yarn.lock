@@ -1244,6 +1244,23 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.40.0.tgz#3ba73359e11f5a7bd3e407f70b3528abfae69cec"
   integrity sha512-ElyB54bJIhXQYVKjDSvCkPO1iU1tSAeVQJbllWJq1XQSmmA4dgFk8CbiBGpiOPxleE48vDogxCtmMYku4HSVLA==
 
+"@foo-testing-0103/react-component@0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@foo-testing-0103/react-component/-/react-component-0.0.1.tgz#7d4b4e346acf4151dacf0107701df022d5db5817"
+  integrity sha512-wk/ypCAzGbuO1C0v4w3CFUm7FN2RPtex2nWA2Jo2DVBBZ+yK+s6N8Ier3+6ZlqZLNYv0T3fYNaRMmsNuP2lC6g==
+  dependencies:
+    styled-components "^5.1.1"
+
+"@foo-testing-0103/return@0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@foo-testing-0103/return/-/return-0.0.1.tgz#32dd86115029160a614392587166c99adaf7196d"
+  integrity sha512-tDIVeUBu60jF+xfeircQsxeTk9csHeZ3CbkcFk2nkyyPLcISTrFlglAahTpE9Fc5BvqsiQxqV0WValiNeMXiRA==
+
+"@foo-testing-0103/shipment@0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@foo-testing-0103/shipment/-/shipment-0.0.1.tgz#a60430408ed7b035c804f0eb71a240cb09e2677b"
+  integrity sha512-twCGMOElo1UlWRrnvkYApy9I8NlPaIpJ9mD+YpNtgorcPGl5MMUP3j3EoOMKsH40ZGrRPY5Q0dAZivvYywftJw==
+
 "@humanwhocodes/config-array@^0.11.8":
   version "0.11.8"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.11.8.tgz#03595ac2075a4dc0f191cc2131de14fbd7d410b9"
@@ -8689,11 +8706,6 @@ wbuf@^1.1.0, wbuf@^1.7.3:
   integrity sha512-O84QOnr0icsbFGLS0O3bI5FswxzRr8/gHwWkDlQFskhSPryQXvrTMxjxGP4+iWYoauLoBvfDpkrOauZ+0iZpDA==
   dependencies:
     minimalistic-assert "^1.0.0"
-
-web-vitals@^2.1.4:
-  version "2.1.4"
-  resolved "https://registry.yarnpkg.com/web-vitals/-/web-vitals-2.1.4.tgz#76563175a475a5e835264d373704f9dde718290c"
-  integrity sha512-sVWcwhU5mX6crfI5Vd2dC4qchyTqxV8URinzt25XqVh+bHEPGH4C3NPrNionCP7Obx59wrYEbNlw4Z8sjALzZg==
 
 webidl-conversions@^4.0.2:
   version "4.0.2"

@@ -20,7 +20,6 @@ const config = {
   plugins: [
     replace({
       "process.env.SC_ATTR": JSON.stringify("return-data-styled"),
-      preventAssignment: true,
     }),
     peerDepsExternal(),
     commonjs(),

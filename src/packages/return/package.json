@@ -1,22 +1,19 @@
 {
-  "name": "@foo/return",
-  "version": "1.23.5",
+  "name": "@foo-testing-0103/return",
+  "version": "0.0.1",
   "main": "build/index.js",
   "module": "build/index.js",
   "type": "module",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git@git.parcelperform.com:dev-team/pp_brik.git",
-    "directory": "packages/shipment"
-  },
   "scripts": {
     "test": "echo test",
     "build-dev": "rollup -c --watch",
     "build": "rollup -c && cp package.json ./build",
     "precommit": "lint-staged"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@foo-testing-0103/react-component": "0.0.1"
+  },
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"

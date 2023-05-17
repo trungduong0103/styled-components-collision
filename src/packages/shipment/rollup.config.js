@@ -23,7 +23,6 @@ const config = {
   plugins: [
     replace({
       "process.env.SC_ATTR": JSON.stringify("shipment-data-styled"),
-      preventAssignment: true,
     }),
     // alias({
     //   entries: {

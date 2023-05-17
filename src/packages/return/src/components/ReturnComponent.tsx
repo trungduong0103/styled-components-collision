@@ -1,5 +1,5 @@
 import React from "react";
-import { ForwardTrackingComponent } from "@foo/react-component/ForwardTrackingComponent";
+import { ForwardTrackingComponent } from "@foo-testing-0103/react-component/build/ForwardTrackingComponent";
 
 export const ReturnComponent = () => {
   return (
