@@ -56,7 +56,9 @@ const componentConfig = {
     commonJS(),
     json(),
     svg(),
-    babel(),
+    babel({
+      configFile: resolveApp("babel.config.js"),
+    }),
     postcss({
       autoModules: true,
       plugins: [postcssPresetEnv],

@@ -1244,26 +1244,26 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.40.0.tgz#3ba73359e11f5a7bd3e407f70b3528abfae69cec"
   integrity sha512-ElyB54bJIhXQYVKjDSvCkPO1iU1tSAeVQJbllWJq1XQSmmA4dgFk8CbiBGpiOPxleE48vDogxCtmMYku4HSVLA==
 
-"@foo-testing-0103/react-component@0.0.8":
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/@foo-testing-0103/react-component/-/react-component-0.0.8.tgz#a9cd81a2a36d9600af7d9fb31a9c703b12b6a7c7"
-  integrity sha512-Cl7C6h8dtyXNeXjQtx9kUdakzku5So0e5srZarcgv4Z5GiUzcLcdRL5d2xpMhV4zwY6752Y4H21TpeEU2jwugg==
+"@foo-testing-0103/react-component@0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@foo-testing-0103/react-component/-/react-component-0.0.9.tgz#00ced45fde3950a8c8a284378945dfdada972651"
+  integrity sha512-VbIgNpWpL7lGVypAIG7A4WB4xWG9W0Fi+w0WHe7GD6cImLT2jEg6nO/jplOjzr2ExMGyMH3TZz2MNNzBPRzlpA==
   dependencies:
     styled-components "5.2.3"
 
-"@foo-testing-0103/return@0.0.10":
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/@foo-testing-0103/return/-/return-0.0.10.tgz#537d2e3d9410cab999b145344c845ca97e6e91ea"
-  integrity sha512-pcpqSRW2n/WwQ8bPQbOj2Tvbh0yt+kRrrMukdtSKk9qbtRedX3n+8lDNxUeWjtEFMXOdTL+/CgrN1fWPILOfJw==
+"@foo-testing-0103/return@0.0.11":
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/@foo-testing-0103/return/-/return-0.0.11.tgz#93ea02f59199ae7c634de3b0bd89539bc05b75f9"
+  integrity sha512-lZyMPV5BoVVvsDGzBknCg0HQaN9Fo26/S/X8dLToR8I/fnKqVtBXOH0WPK78+kG/amIvrjtvPoL+1lTG0sFIQQ==
   dependencies:
-    "@foo-testing-0103/react-component" "0.0.8"
+    "@foo-testing-0103/react-component" "0.0.9"
 
-"@foo-testing-0103/shipment@0.0.10":
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/@foo-testing-0103/shipment/-/shipment-0.0.10.tgz#5385363eed9b1dbb79a5ab6455b047bd5f50feac"
-  integrity sha512-jE+ZLahJ7iKNVdLaZhpHG2rhQGSHlFYQx3xh4CNBFcvcx9dmSbCYkkHlm0akLnIrYG1yL6PCqHnv371uD5Zl7A==
+"@foo-testing-0103/shipment@0.0.11":
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/@foo-testing-0103/shipment/-/shipment-0.0.11.tgz#9ee8040c04c95ca3d33b7704f63acaeaacc3209f"
+  integrity sha512-c3qcINYIQvc53hbMKcByrujsjPmYrgkqMsaMX/CgfGWKVEj9h52HwQGHutRqEYdXobgLpSHTRAjrQaP0OrmM+Q==
   dependencies:
-    "@foo-testing-0103/react-component" "0.0.8"
+    "@foo-testing-0103/react-component" "0.0.9"
 
 "@humanwhocodes/config-array@^0.11.8":
   version "0.11.8"
