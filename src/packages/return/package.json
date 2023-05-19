@@ -1,8 +1,8 @@
 {
   "name": "@foo-testing-0103/return",
-  "version": "0.0.11",
-  "main": "build/index.js",
-  "module": "build/index.js",
+  "version": "0.0.12",
+  "main": "index.js",
+  "module": "index.js",
   "type": "module",
   "license": "MIT",
   "scripts": {
@@ -12,7 +12,7 @@
     "precommit": "lint-staged"
   },
   "dependencies": {
-    "@foo-testing-0103/react-component": "0.0.9"
+    "@foo-testing-0103/react-component": "0.0.12"
   },
   "peerDependencies": {
     "react": ">=16.8.0",
