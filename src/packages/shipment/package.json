@@ -1,8 +1,8 @@
 {
   "name": "@foo-testing-0103/shipment",
   "version": "0.0.8",
-  "main": "build/index.js",
-  "module": "build/index.js",
+  "main": "index.js",
+  "module": "index.js",
   "license": "MIT",
   "type": "module",
   "scripts": {

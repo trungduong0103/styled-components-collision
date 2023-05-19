@@ -1,8 +1,8 @@
 {
   "name": "@foo-testing-0103/return",
   "version": "0.0.8",
-  "main": "build/index.js",
-  "module": "build/index.js",
+  "main": "index.js",
+  "module": "index.js",
   "type": "module",
   "license": "MIT",
   "scripts": {
