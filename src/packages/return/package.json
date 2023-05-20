@@ -1,6 +1,6 @@
 {
   "name": "@foo-testing-0103/return",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "main": "index.js",
   "module": "index.js",
   "type": "module",
@@ -12,7 +12,7 @@
     "precommit": "lint-staged"
   },
   "dependencies": {
-    "@foo-testing-0103/react-component": "0.0.13"
+    "@foo-testing-0103/react-component": "0.0.14"
   },
   "peerDependencies": {
     "react": ">=16.8.0",

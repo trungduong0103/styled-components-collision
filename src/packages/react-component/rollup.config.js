@@ -4,6 +4,7 @@ import * as url from "url";
 import babel from "@rollup/plugin-babel";
 import resolve from "@rollup/plugin-node-resolve";
 import commonJS from "@rollup/plugin-commonjs";
+// import replace from "@rollup/plugin-replace";
 import postcssPresetEnv from "postcss-preset-env";
 import postcss from "rollup-plugin-postcss";
 import json from "@rollup/plugin-json";
@@ -49,6 +50,10 @@ const componentConfig = {
     //     ),
     //   },
     // }),
+    // replace({
+    //   "process.env.NODE_ENV": JSON.stringify("production"),
+    //   preventAssignment: true,
+    // }),
     peerDepsExternal(),
     resolve({
       extensions: [".mjs", ".js", ".jsx", ".ts", ".tsx"],
@@ -56,7 +61,9 @@ const componentConfig = {
     commonJS(),
     json(),
     svg(),
-    babel(),
+    babel({
+      configFile: resolveApp("babel.config.js"),
+    }),
     postcss({
       autoModules: true,
       plugins: [postcssPresetEnv],
