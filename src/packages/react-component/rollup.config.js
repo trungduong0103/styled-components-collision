@@ -4,6 +4,7 @@ import * as url from "url";
 import babel from "@rollup/plugin-babel";
 import resolve from "@rollup/plugin-node-resolve";
 import commonJS from "@rollup/plugin-commonjs";
+// import replace from "@rollup/plugin-replace";
 import postcssPresetEnv from "postcss-preset-env";
 import postcss from "rollup-plugin-postcss";
 import json from "@rollup/plugin-json";
@@ -48,6 +49,10 @@ const componentConfig = {
     //       "react-json-tree/src/index.js"
     //     ),
     //   },
+    // }),
+    // replace({
+    //   "process.env.NODE_ENV": JSON.stringify("production"),
+    //   preventAssignment: true,
     // }),
     peerDepsExternal(),
     resolve({

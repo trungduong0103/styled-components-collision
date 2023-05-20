@@ -960,10 +960,10 @@
   resolved "https://registry.yarnpkg.com/@emotion/unitless/-/unitless-0.7.5.tgz#77211291c1900a700b8a78cfafda3160d76949ed"
   integrity sha512-OWORNpfjMsSSUBVrRBVGECkhWcULOAJz9ZW8uK9qgxD+87M7jHRcvh/A96XXNhXTLmKcoYSQtBEX7lHMO7YRwg==
 
-"@foo-testing-0103/react-component@0.0.13":
-  version "0.0.13"
-  resolved "https://registry.yarnpkg.com/@foo-testing-0103/react-component/-/react-component-0.0.13.tgz#c6ab8044649eed6a7d1d70b014ea3a6c59b43d71"
-  integrity sha512-7pJrLhuK2tIcRwi+qUU0UgUEeZR34Uds+wDR573a5/Uc7jHcpFWtUA0Ut/9O8W/+bpXY/CdsSWiw0WEew/7Z2g==
+"@foo-testing-0103/react-component@0.0.14":
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/@foo-testing-0103/react-component/-/react-component-0.0.14.tgz#3a7f116214944bda5a3fb3b6a2d3473e0764f2fe"
+  integrity sha512-9OaMmiTTiSxcdgEuV/zFOlzth2FwkIH75alzhJzM92FcrGOPBOfzmpHoBAKYdYArWC1/SVeT02J7Z3tBCL3RQg==
   dependencies:
     styled-components "5.2.3"
 
